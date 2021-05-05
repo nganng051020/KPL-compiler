@@ -1,0 +1,13 @@
+program wd;
+var N : integer;
+    C : char;
+function wd(N : integer) : char;
+    begin   
+        if i = 1 then wd := 'C'
+        else if i = 2 then wd := 'H'
+        else wd := '#'
+    end;
+begin
+    N := readI;
+    call writeC(wd(N));
+end.

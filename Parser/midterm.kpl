@@ -1,0 +1,23 @@
+program midterm;
+var A : array (.10.) of integer;
+    N : integer;
+    I : integer;
+    Max: integer;
+    J : integer;
+begin   
+    n := readI;
+    for I := 1 to N do
+        begin
+        A(.I.) := READI
+        end;
+    for I := 1 to N do
+        begin
+        if A(.I.) >= Max then begin
+                              Max := A(.I.);
+                              J := I
+                              end;
+        end;
+    Call WriteI(Max);
+    call writeC(' ');
+    call writeI(J)
+end.

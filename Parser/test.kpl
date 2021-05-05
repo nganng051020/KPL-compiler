@@ -1,0 +1,9 @@
+program test;
+var A : array (.5.) of array (.5.) of integer;
+    I : integer;
+    J : integer;
+begin
+    for I := 1 to 5 do
+        for J := 1 to 5 do
+            A(.I.)(.J.) := 0
+end.
